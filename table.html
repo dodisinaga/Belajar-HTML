@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Table</title>
+</head>
+<body>
+    <h1>Belajar Table</h1>
+    <table style="border: 1px solid black">
+    <thead>
+        <tr>
+            <th>Nama Depan</th>
+            <th>Nama Belakang</th>
+            <th>Nilai</th>
+        </tr>
+        <!--clospan menggabung 2 kolom menjadi 1 kolom
+            <th>Nama</th>
+            <th>Nilai</th>
+            -->
+    </thead>
+    <tbody>
+        <tr>
+            <td>Dodi</td>
+            <td>Sinaga</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>Nugraha</td>
+            <td>Santoso</td>
+            <td>88</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td rowspan="2">Total</td>
+            <td>Total</td>
+            <td>168</td>
+        </tr>
+        <tr>
+            <td>Rata-Rata</td>
+            <td>84</td>
+        </tr>
+    </tfoot>
+</table>
+
+<h2>Daftar nama siswa berprestasi</h2>
+<table style="border : solid 1px red">
+    <colgroup>
+        <col style="background-color: rgb(255, 5, 5);">
+        <col span="2" style="background-color: aquamarine">
+      
+    </colgroup>
+    <thead>
+        <tr>
+            <th>Nama Lengkap</th>
+            <th>Asal Sekolah</th>
+            <th>Prestasi</th>
+        </tr>
+        <tr>
+            <td>Dodi Sinaga</td>
+            <td>SMK N 1 Sidikalang</td>
+            <td>juara 1 OSN MATEMATIKA</td>
+        </tr>
+        <tr>
+            <td>Dudi Nuggroho</td>
+            <td>SMK N 1 Jakarta</td>
+            <td>juara 1 OSN BIOLOGGI</td>
+        </tr>
+        <tr>
+            <td>Ratih Sumanto</td>
+            <td>SMA N 1 Kutub Utara</td>
+            <td>Juara 1 COC Ruang guru</td>
+        </tr>
+    </thead>
+</table>
+
+<table style="border: solid 2px black;">
+    <thead>
+        <tr>
+            <th>Nama </th>
+            <th>Lengkap</th>
+        </tr>
+        <tr>
+            <td>Dodi</td>
+            <td>Sinaga</td>
+        </tr>
+    </thead>
+</table>
+
+</html>
